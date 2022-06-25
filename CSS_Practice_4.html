@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Practice 4</title>
+    <style>
+        .parul{
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="parul">This is my form</h1>
+      <fieldset>
+        <legend>Personal Info</legend>
+        First Name: <input type="text" required /> <br>
+         Last Name:
+        <input type="text" required />
+      </fieldset>
+      <hr color="red" />
+      <fieldset>
+        <legend>Course Info</legend>
+        Course: <br>
+        <input type="radio" name="parul" /> Web Design <br>
+        <input type="radio" name="parul" /> SQL <br>
+        <input type="radio" name="parul" />         Programming<br>
+ Career Goal:
+        <select name="sura" id="selct">
+          <option value="Programmer">Programmer</option>
+          <option value="Web Design">Web Design</option>
+          <option value="Operating System">Operating System</option>
+          <option value="Oops">Oops</option>
+        </select>
+<br>
+        Describe any additional skills you have:
+        <br>
+        <textarea name="area" id="text" cols="50" rows="5"></textarea>
+        <br>
+        Email: <input type="email">
+      </fieldset>
+<hr color="red">
+      For how long would you like to work with us : <br>
+      <input type="checkbox" name="year" id="hemlo"> 1 year <br>
+      <input type="checkbox" name="months" id="hii"> Seasonal Work <br>
+
+      <input type="button" value="Enter my information">
+      <input type="reset" value="Reset Form" id="reset">
+      <!-- <button type="reset">Reset From</button> -->
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Practice 8</title>
+    <style>
+      
+      .container {
+        background-color: rgb(28, 187, 187);
+        padding: 23px;
+      }
+      #area {
+        overflow-y: scroll;
+      }
+      .parul {
+        background-color: yellow;
+        width: 50%;
+        border: 2px solid white;
+        margin-top: 12px;
+        margin-bottom: 34px;
+      }
+      .sura {
+        margin: auto;
+        border: 2px solid white;
+      }
+      h3{
+        padding-bottom: 15px;
+      }
+      .c1{
+        margin-bottom: 7px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Order Confirmation From</h3>
+      Name: <input type="text" class="c1"/> <br />
+      Email: <input type="email" class="c1" /><br />
+      Comment: <textarea name="" id="area" class="c1" cols="10" rows="10"></textarea>
+
+      <table class="parul" border="1">
+        <tr>
+          <td>
+            <table border="1" class="sura">
+              <tr>
+                <th colspan="6">Turnover Table</th>
+              </tr>
+              <tr>
+                <td>S.no</td>
+
+                <td colspan="2">Type of Turnover</td>
+                <td colspan="3">Amount</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td colspan="2">2</td>
+                <td colspan="3">3</td>
+              </tr>
+              <tr>
+                <td>(i)</td>
+                <td colspan="2">Taxable</td>
+                <td colspan="3">7</td>
+              </tr>
+              <tr>
+                <td>(iii)</td>
+                <td rowspan="2">nill rated</td>
+                <td rowspan="2">Exempted</td>
+                <td colspan="3">0</td>
+              </tr>
+              <tr>
+                <td>(iv)</td>
+                <td>nill</td>
+                <td>nill</td>
+                <td>nill</td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <ol type="1" start="4">
+              <li>Hello from Webcode</li>
+              <li>Nice List!</li>
+              <li>
+                Another Item
+                <ol type="a" start="3">
+                  <li>sub list Item</li>
+                  <li>
+                    sub <del>list Item</del>
+                    <ul type="square">
+                      <li>subtopic 1</li>
+                      <li>subtopic 2</li>
+                    </ul>
+                  </li>
+                </ol>
+              </li>
+              <li>Last List item</li>
+            </ol>
+          </td>
+        </tr>
+      </table>
+
+      <button type="reset">reset all</button>
+      <button type="submit">submit</button>
+    </div>
+  </body>
+</html>

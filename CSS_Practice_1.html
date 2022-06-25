@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Practice 1</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #d1 {
+        background-color: red;
+        height: 500px;
+        width: 500px;
+        border-style: double;
+        border-top: 4px groove red;
+        border-left: 4px groove yellow;
+        border-right: 4px groove green;
+        border-bottom: 4px groove blue;
+        border-radius: 50px;
+      }
+      #d2 {
+        border-radius: 50px;
+        background-color: yellow;
+        height: 500px;
+        width: 500px;
+        border-style: double;
+        border-top: 4px groove red;
+        border-left: 4px groove yellow;
+        border-right: 4px groove green;
+        border-bottom: 4px groove blue;
+        position: relative;
+        right: 50px;
+      }
+      table {
+        width: 100%;
+        border: 2px double green;
+        color: purple;
+        border-radius: 15px;
+      }
+    .box{
+        background-color: pink;
+        padding: 14px;
+    }
+      td,th {
+        border-radius: 15px;
+        padding: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- The following question includes the division properties,table properties used in CSS. -->
+    <div class="box">
+      <div class="container">
+        <div id="d1"><h1>Hello</h1></div>
+        <div id="d2"><h1>CSS</h1></div>
+      </div>
+
+      <div class="table">
+        <p>These are the two images</p>
+        <h2>CSS Properties To Use</h2>
+        <p>Here we will be covering CSS Properties</p>
+
+        <table border="1">
+          <tr>
+            <th>S.No</th>
+            <th>Subjects</th>
+            <th>credit</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>IoT</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Php</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Machine Learning</td>
+            <td>30</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

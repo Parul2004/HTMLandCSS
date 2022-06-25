@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Practice 6</title>
+    <style>
+        .grey{
+            background-color: rgb(166, 164, 164);
+        }
+        .day{
+            font-size: 44px;
+        }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <tr class="grey">
+        <th rowspan="3" class="day">day</th>
+        <th colspan="3">seminar</th>
+      </tr>
+      <tr class="grey">
+        <th colspan="2">schedule</th>
+        <th rowspan="2">topic</th>
+      </tr>
+      <tr class="grey">
+        <th>begin</th>
+        <th>end</th>
+      </tr>
+
+      <tr>
+        <td rowspan="2">Monday</td>
+        <td rowspan="2">8:00 a.m.</td>
+        <td rowspan="2">5:00 p.m.</td>
+        <td>Introduction to Angular JS</td>
+      </tr>
+      <tr>
+        <td>XML</td>
+      </tr>
+
+      <tr>
+        <td rowspan="4">
+          <ul>
+            <li>
+              Branch
+              <ol type="a">
+                <li>CSE</li>
+              </ol>
+              <ol type="i" start="2">
+                <li>ME</li>
+              </ol>
+              <ol type="a" start="6">
+                <li>Information Technology</li>
+              </ol>
+              <ol type="1" start="6">
+                <li>ECE</li>
+              </ol>
+            </li>
+            <li>
+              Courses
+              <ul type="circle">
+                <li>Management</li>
+                <li>Diploma</li>
+              </ul>
+            </li>
+            <li>
+              Scope
+              <ol type="a">
+                <li>CSE</li>
+              </ol>
+              <ol type="a" start="26">
+                <li>BCA</li>
+              </ol>
+              <ol type="a" start="25">
+                <li>
+                  PHD
+                  <ul type="square">
+                    <li>Chitkara</li>
+                  </ul>
+                  <ol type="1" start="10">
+                    <li>CIVIL</li>
+                  </ol>
+                </li>
+              </ol>
+            </li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>8:00 a.m.</td>
+        <td>11:00 a.m.</td>
+        <td>XPath</td>
+      </tr>
+      <tr>
+        <td>11:00 a.m.</td>
+        <td>2:00 p.m.</td>
+        <td rowspan="2">
+          <table border="1" align="center">
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>
+                <ul type="disc">
+                  <li></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>
+                <ul type="circle">
+                  <li></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>
+                <ul type="square">
+                  <li></li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>2:00 p.m.</td>
+        <td>5:00 p.m.</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>8:00 a.m.</td>
+        <td>12:00 p.m.</td>
+        <td>SQL</td>
+      </tr>
+    </table>
+  </body>
+</html>

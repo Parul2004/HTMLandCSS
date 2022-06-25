@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Practice 5</title>
+    <style>
+        h2{
+            text-align: left;
+        }
+        table{
+            width: 100%;
+        }
+        p{
+            font-size: 34px;
+        }
+        span{
+            padding-left: 23px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <fieldset>
+        <legend>Register for Designing Workshop</legend>
+        First name: <br />
+        <input type="text" placeholder="write your first name here" />
+        <br />
+        Last name: <br />
+        <input type="text" placeholder="write your last name here" />
+        <p>Select a week for workshop: <input type="week" /></p>
+
+        <h2>Time table of Workshop</h2>
+
+        <table border="1">
+
+          <tr>
+            <th>Topic</th>
+            <th>Instructor</th>
+            <th>Timing</th>
+          </tr>
+
+          <tr>
+            <td>
+              <ol type="I" start="51">
+                <li>Statistics</li>
+                <li>Linear Algebra</li>
+              </ol>
+            </td>
+            <td>Jerry</td>
+            <td>Monday Time: <input type="time" /></td>
+          </tr>
+
+          <tr>
+            <td>
+              <ul type="circle">
+                <li>Programming</li>
+                <li>Machine Learning</li>
+              </ul>
+            </td>
+            <td>Tom</td>
+            <td>Select Month and Year: <input type="month" /></td>
+          </tr>
+
+<tr>
+    <td>
+        <p >Data mining <br>
+       <span>-examining large pre-existing databases</span>  </p>
+        
+        <p>Data Visualization <br>
+       <span> -representation of information and data</span></p>
+    </td>
+    <td>Rolando</td>
+    <td>Thursday Time: <input type="time"></td>
+</tr>
+
+        </table>
+
+        <h3>Suggestion</h3> 
+        <textarea name="text" id="area" placeholder="Type your suggestion here" cols="20" rows="3"></textarea>
+        <br>
+<input type="submit" >
+      </fieldset>
+    </div>
+  </body>
+</html>
